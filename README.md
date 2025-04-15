@@ -9,7 +9,7 @@
 - 📝 Combines the contents of all open files
 - 🗂️ Adds headers with file names for easy reference
 - 📄 Opens the result in a new untitled tab
-- 📌 Click the status bar button or run the command from the Command Palette
+- 🧩 Click the status bar button or run the command from the Command Palette
 
 ---
 
