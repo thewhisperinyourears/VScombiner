@@ -1,29 +1,36 @@
 {
-    "name": "combine-open-files",
-    "displayName": "Combine Open Files",
-    "description": "Combine contents of all open editors into one file",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.70.0"
-    },
-    "activationEvents": [],
-    "main": "./out/extension.js",
-    "contributes": {
-        "commands": [
-            {
-                "command": "extension.combineOpenFiles",
-                "title": "Combine Open Files"
-            }
-        ]
-    },
-    "scripts": {
-        "vscode:prepublish": "tsc -p ./",
-        "compile": "tsc -p ./",
-        "watch": "tsc -watch -p ./"
-    },
-    "devDependencies": {
-        "@types/vscode": "^1.70.0",
-        "@vscode/test-electron": "^2.5.2",
-        "typescript": "^4.8.4"
-    }
+  "name": "combine-open-files",
+  "displayName": "Combine Open Files",
+  "description": "Combine contents of all open editors into one file",
+  "version": "0.0.1",
+  "publisher": "Ideas2Byte",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "main": "./out/extension.js",
+  "activationEvents": [
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.combineOpenFiles",
+        "title": "Combine Open Files"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thewhisperinyourears/VScombiner"
+  },
+  "license": "MIT",
+  "scripts": {
+    "vscode:prepublish": "tsc -p ./",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.70.0",
+    "@vscode/test-electron": "^2.5.2",
+    "typescript": "^4.8.4"
+  }
 }
