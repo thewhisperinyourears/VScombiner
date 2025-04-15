@@ -28,4 +28,4 @@
 Search for `Combine Open Files` in the **Extensions** Marketplace, or install manually using:
 
 ```bash
-code --install-extension theWhisper.combine-open-files
+code --install-extension Ideas2Byte.combine-open-files
