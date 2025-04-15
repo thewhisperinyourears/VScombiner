@@ -16,7 +16,7 @@
 ## 🚀 How to Use
 
 1. Open multiple files in tabs in VS Code
-2. Click the **"📄 Combine Files"** button in the bottom status bar  
+2. Click the **"🧩 Combine Files"** button in the bottom status bar  
    _or_  
    Press `Ctrl+Shift+P` and run `> Combine Open Files`
 3. A new file will open with the combined content of all tabs
