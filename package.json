@@ -2,14 +2,14 @@
   "name": "vscode-text-combiner",
   "displayName": "VSC Combine Open Files",
   "description": "Simply combine contents of all open editors into one file with one click.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "Ideas2Byte",
   "engines": {
     "vscode": "^1.70.0"
   },
   "main": "./out/extension.js",
   "activationEvents": [
-    "onCommand:extension.combineOpenFiles"
+    "onStartupFinished"
   ],
   "contributes": {
     "commands": [
